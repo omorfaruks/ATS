@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ATS</title>
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/icons/feather/feather.css">
+        <link rel="stylesheet" href="./assets/icons/FontAwesome/font-awesome.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header__logo-wrapper">
+                <a href="index.html">
+                    <img src="./assets/images/ATS.svg" class="header__logo">
+                </a>
+            </div>
+            <div class="header__hamburger">
+                <i class="icon-feather-menu"></i>
+                <i class="icon-feather-x"></i>
+            </div>
+            <div class="header__title">My profile</div>
+            <div class="account">
+                <div class="account__logo">
+                    <img src="./assets/images/user-profile.png" alt="insight Cloud" title="insight Cloud">
+                </div>
+                <div class="account__name"> Omar Faruk <i class="icon-feather-chevron-down"></i>
+                    <ul class="nav nav_account">
+                        <li class="nav__item ">
+                            <a href="" class="nav__url">Settings</a>
+                        </li>
+                        <li class="nav__item ">
+                            <a href="" class="nav__url">Sign out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="drawer drawer_close">
+            <ul class="nav nav_m-t nav_max-height mCustomScrollbar">
+                <li class="nav__item nav__item_js nav__item-Analytic">
+                    <div class='nav__main-item'>
+                        <span class="nav__icon nav__icon_color_white">
+                            <i class="icon-feather-Market"></i>
+                        </span>
+                        <div class="nav__url nav__url_color_white">Dashboard</div>
+                        <i class="icon-feather-chevron-right nav__stat nav__stat_color_white"></i>
+                    </div>
+                   
+                </li>
+                <li class="nav__item nav__item_js nav__item-Analytic">
+                    <div class='nav__main-item'>
+                        <span class="nav__icon nav__icon_color_white">
+                            <i class="icon-feather-Market"></i>
+                        </span>
+                        <div class="nav__url nav__url_color_white">Jobs </div>
+                        <i class="icon-feather-chevron-right nav__stat nav__stat_color_white"></i>
+                    </div>
+                   
+                </li>
+                <li class="nav__item nav__item_js nav__item-Analytic">
+                    <div class='nav__main-item'>
+                        <span class="nav__icon nav__icon_color_white">
+                            <i class="icon-feather-Market"></i>
+                        </span>
+                        <div class="nav__url nav__url_color_white">Candidates</div>
+                        <i class="icon-feather-chevron-right nav__stat nav__stat_color_white"></i>
+                    </div>
+                   
+                </li>
+            </ul>
+         
+        </div>
+        <section class="detail__wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="nav" id="pills-tab" role="tablist">
+                            <li class="nav-item active" role="presentation">
+                                <a href="javascript:void(0)" class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Demography</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a href="javascript:void(0)" class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Interview</a>
+                            </li>
+                        </ul>
+                        <div class="cards">
+                        <div class="row ">
+                            
+                            <div class="col-md-6">
+                                <div class="with-shadow">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    <img src="assets/images/default_male.jpg" class="img-fluid rounded-start border p-2" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class=" row">
+                                        <div class="mb-2 d-flex align-items-center justify-content-between">
+                                            <h5 class="h5 text-dark">John Doe</h5>
+                                            <div>
+                                                    <span class="rounded-circle p-2 bg-primary me-2">
+                                                    <i class="icon-feather-file text-white"></i>
+                                                 </span>
+                                                 <span class="mb-1 px-2 py-1 text-success bg-success bg-opacity-10 border border-success border-opacity-10 rounded-1" >
+                                                    <span class="dot"></span> Active
+                                                 </span>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="col-md-6">
+                                           
+                                            <div>
+                                                <p class="h6 m-0 text-dark">Phone number</p>
+                                                <p>+880 1712 000000</p>
+                                            </div>
+                                            <div>
+                                                <p class="h6 m-0 text-dark">Email Address</p>
+                                                <p>test@gmail.com</p>
+                                            </div>
+                                            <div>
+                                                <p class="h6 m-0 text-dark">Experience in Years</p>
+                                                <p>3 years</p>
+                                            </div>
+                                            <div>
+                                                <p class="h6 m-0 text-dark">Current job title</p>
+                                                <p>Technical Consultant</p>
+                                            </div>
+                                            <div>
+                                                <p class="h6 m-0 text-dark">Joined On</p>
+                                                <p>10-04-2002</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                            <div>
+                                                <p class="h6">Skill set</p>
+                                                <ul class="list-inline">
+                                                    <li><span class="dot"></span> Market Research </li>
+                                                    <li><span class="dot"></span> Social Media </li>
+                                                    <li><span class="dot"></span> Competitor Analysis</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-6">
+                               <div class="row">
+                                <div class="col-md-8">
+                                    <h6 class="h6 text-dark border-bottom pb-2">Application summary</h5>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="">
+                                                <span class="rounded-circle bg-primary text-center text-white circle__summary">
+                                                   <span class="d-block circle__title fw-bold">25</span>
+                                                   <span class="circle__sub-title">Submissions</span>
+                                                </span>
+                                            </div>
+                                                <i class="icon-feather-chevron-right text-black-50 me-2 icon-xl"></i>
+                                            <div class="">
+                                                <span class="rounded-circle bg-primary text-center text-white circle__summary">
+                                                   <span class="d-block circle__title fw-bold">7</span>
+                                                   <span class="circle__sub-title">Interview</span>
+                                                </span>
+                                            </div>
+                                                <i class="icon-feather-chevron-right text-black-50 me-2 icon-xl"></i>
+                                            <div class="">
+                                                <span class="rounded-circle bg-primary text-center text-white circle__summary">
+                                                   <span class="d-block circle__title fw-bold">3</span>
+                                                   <span class="circle__sub-title">Offered</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <h6 class="h6 text-dark border-bottom pb-2">Profile completeness</h5>
+                                        <ul class="list-inline">
+                                            <li class="fw-bold pb-2"><i class="icon-feather-check-circle text-success me-2 icon-sm"></i>Basic info</li>
+                                            <li class="fw-bold pb-2"><i class="icon-feather-check-circle text-success me-2 icon-sm"></i>Address Information</li>
+                                            <li class="fw-bold pb-2"><i class="icon-feather-check-circle text-success me-2 icon-sm"></i>Professional Details</li>
+                                            <li class="fw-bold pb-2"><i class="icon-feather-check-circle text-danger me-2 icon-sm"></i>Educational Details</li>
+                                        </ul>
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="cards">
+                            <div class="d-flex align-items-center justify-content-between border-bottom mb-3">
+                                <h6 class="h6 text-dark">Basic Info <span class="border__botton-50"></span></h6>
+                                <a href=""><i class="icon-feather-edit text-primary me-2 icon-sm"></i></a>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Candidate ID</h6>
+                                        <p>ZR_3_CAND</p>
+                                    </div>
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Email</h6>
+                                        <p>test@gmail.com</p>
+                                    </div>
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Phone</h6>
+                                        <p>228-201-1210</p>
+                                    </div>
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Website</h6>
+                                        <p>www.christinapalaskas.com</p>
+                                    </div>
+                                       
+                                </div>
+                                <div class="col-md-4">
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Candidate name</h6>
+                                        <p>Mrs Christina Palaskas (Sample)</p>
+                                    </div>
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Mobile</h6>
+                                        <p>601-559-1710</p>
+                                    </div>
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Fax</h6>
+                                        <p>+1 555 444-3333</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="d-flex align-items-center justify-content-between border-bottom mb-3">
+                                <h6 class="h6 text-dark">Address Information <span class="border__botton-50"></span></h6>
+                                <div class="mb-2">
+                                    <a href="" class="mb-1 px-2 py-1 text-success bg-success bg-opacity-10 border border-success border-opacity-10 rounded-1 mx-2">Locate map </a>
+                                     <a href=""><i class="icon-feather-edit text-primary me-2 icon-sm"></i></a>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-4">
+                                        <div>
+                                            <h6 class="h6 m-0 text-dark">Candidate ID</h6>
+                                            <p>ZR_3_CAND</p>
+                                        </div>
+                                        <div>
+                                            <h6 class="h6 m-0 text-dark">Email</h6>
+                                            <p>test@gmail.com</p>
+                                        </div>
+                                        <div>
+                                            <h6 class="h6 m-0 text-dark">Phone</h6>
+                                            <p>228-201-1210</p>
+                                        </div>
+                                        <div>
+                                            <h6 class="h6 m-0 text-dark">Website</h6>
+                                            <p>www.christinapalaskas.com</p>
+                                        </div>
+                                       
+                                </div>
+                                <div class="col-md-4">
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Candidate name</h6>
+                                        <p>Mrs Christina Palaskas (Sample)</p>
+                                    </div>
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Mobile</h6>
+                                        <p>601-559-1710</p>
+                                    </div>
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Fax</h6>
+                                        <p>+1 555 444-3333</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="d-flex align-items-center justify-content-between border-bottom mb-3">
+                                <h6 class="h6 text-dark">Educational Details <span class="border__botton-50"></span></h6>
+                                <a href=""><i class="icon-feather-edit text-primary me-2 icon-sm"></i></a>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    
+                                        <div>
+                                            <h6 class="h6 m-0 text-dark">Candidate ID</h6>
+                                            <p>ZR_3_CAND</p>
+                                        </div>
+                                        <div>
+                                            <h6 class="h6 m-0 text-dark">Email</h6>
+                                            <p>test@gmail.com</p>
+                                        </div>
+                                        <div>
+                                            <h6 class="h6 m-0 text-dark">Phone</h6>
+                                            <p>228-201-1210</p>
+                                        </div>
+                                        <div>
+                                            <h6 class="h6 m-0 text-dark">Website</h6>
+                                            <p>www.christinapalaskas.com</p>
+                                        </div>
+                                       
+                                </div>
+                                <div class="col-md-4">
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Candidate name</h6>
+                                        <p>Mrs Christina Palaskas (Sample)</p>
+                                    </div>
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Mobile</h6>
+                                        <p>601-559-1710</p>
+                                    </div>
+                                    <div>
+                                        <h6 class="h6 m-0 text-dark">Fax</h6>
+                                        <p>+1 555 444-3333</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+                            <div class="cards">
+                                fadsfadsfsdfadsf
+                                                        </div>
+                        </div>
+                    </div>
+                 </div>
+        </div>
+        </section>
+        <footer>
+        <div class="container-fluid">
+                <div class="row copyright">
+                    <div class="col-md-24"> © <span class="newYear">2022</span> ATS All rights reserved | <a href=""  target="_blank">Privacy Policy</a> | <a href="" target="_blank">Terms of Service</a>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <script>
+            $(".header__hamburger").on("click", function(){
+                $(".drawer").toggleClass("drawer_close")
+                $(this).toggleClass("header__hamburger_opened")
+            });
+
+            $(".nav__item_js").on("click", function(){
+                $(".nav__sub").removeClass("nav__sub_open");
+                $(this).children('.nav__sub').addClass("nav__sub_open");
+            });
+
+        </script>
+
+
+    </body>
+</html>

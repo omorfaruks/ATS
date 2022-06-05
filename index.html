@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ATS</title>
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/icons/feather/feather.css">
+        <link rel="stylesheet" href="./assets/icons/FontAwesome/font-awesome.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header__logo-wrapper">
+                <a href="index.html">
+                    <img src="./assets/images/ATS.svg" class="header__logo">
+                </a>
+            </div>
+            <div class="header__hamburger">
+                <i class="icon-feather-menu"></i>
+                <i class="icon-feather-x"></i>
+            </div>
+            <div class="header__title">Dashboard</div>
+            <div class="account">
+                <div class="account__logo">
+                    <img src="./assets/images/user-profile.png" alt="insight Cloud" title="insight Cloud">
+                </div>
+                <div class="account__name"> Omar Faruk <i class="icon-feather-chevron-down"></i>
+                    <ul class="nav nav_account">
+                        <li class="nav__item ">
+                            <a href="" class="nav__url">Settings</a>
+                        </li>
+                        <li class="nav__item ">
+                            <a href="" class="nav__url">Sign out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="drawer drawer_close">
+            <ul class="nav nav_m-t nav_max-height mCustomScrollbar">
+                <li class="nav__item nav__item_js nav__item-Analytic">
+                    <div class='nav__main-item'>
+                        <span class="nav__icon nav__icon_color_white">
+                            <i class="icon-feather-airplay"></i>
+                        </span>
+                        <div class="nav__url nav__url_color_white">Dashboard</div>
+                        <i class="icon-feather-chevron-right nav__stat nav__stat_color_white"></i>
+                    </div>
+                   
+                </li>
+                <li class="nav__item nav__item_js nav__item-Analytic">
+                    <div class='nav__main-item'>
+                        <span class="nav__icon nav__icon_color_white">
+                            <i class="icon-feather-layers"></i>
+                        </span>
+                        <div class="nav__url nav__url_color_white">Jobs </div>
+                        <i class="icon-feather-chevron-right nav__stat nav__stat_color_white"></i>
+                    </div>
+                   
+                </li>
+                <li class="nav__item nav__item_js nav__item-Analytic">
+                    <div class='nav__main-item'>
+                        <span class="nav__icon nav__icon_color_white">
+                            <i class="icon-feather-layout"></i>
+                        </span>
+                        <div class="nav__url nav__url_color_white">Candidates</div>
+                        <i class="icon-feather-chevron-right nav__stat nav__stat_color_white"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="cards d-flex align-items-center justify-content-between">
+                            <div>
+                                <h2 class="mb-0 font-w600 text-dark">342</h2>
+                                <span class="text-secondary">Candidates</span>
+                            </div>
+                            <div>
+                                <i class="icon-feather-airplay icon-xl text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="cards d-flex align-items-center justify-content-between">
+                            <div>
+                                <h2 class="mb-0 font-w600 text-dark">9</h2>
+                                <span class="text-secondary">Applied</span>
+                            </div>
+                            <div>
+                                <i class="icon-feather-cast icon-xl text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="cards d-flex align-items-center justify-content-between">
+                            <div>
+                                <h2 class="mb-0 font-w600 text-dark">40%</h2>
+                                <span class="text-secondary">Invited</span>
+                            </div>
+                            <div>
+                                <i class="icon-feather-user icon-xl text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="cards d-flex align-items-center justify-content-between">
+                            <div>
+                                <h2 class="mb-0 font-w600 text-dark">5</h2>
+                                <span class="text-secondary">Offers</span>
+                            </div>
+                            <div>
+                                <i class="icon-feather-Market icon-xl text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="d-flex justify-content-end mb-3 mt-1">
+                            <a href="javascript:void(0)" class="btn btn-primary me-3 border-0 rounded-1 p-2 px-3"><i class="icon-feather-plus me-2"></i>Add candidate requisition</a>
+                            <a href="javascript:void(0)" class="btn btn-primary border-0 rounded-1 p-2 px-3"><i class="icon-feather-plus me-2"></i>Add job opening</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="cards">
+                            <div class="table-responsive">
+
+                           
+                        <table class="table text-muted">
+                            <thead>
+                              <tr>
+                                <th class="text-uppercase text-dark">Title</th>
+                                <th class="text-uppercase text-dark">Industry</th>
+                                <th class="text-uppercase text-dark">Created On</th>
+                                <th class="text-uppercase text-dark">Status</th>
+                                <th class="text-uppercase text-dark">Total Applied</th>
+                                <th class="text-uppercase text-dark"></th>
+                                <th></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Engineering Design Specialist</td>
+                                <td>Education</td>
+                                <td>01-29-2022</td>
+                                <td class="text-info">Waiting for approval</td>
+                                <td>2</td>
+                                <td> 
+                                    <select class="form-select rounded-0">
+                                        <option selected>Inactivate</option>
+                                        <option>Activate</option>
+                                      </select>
+                                </td>
+                                  <td class="text-end"><a href=""><i class="icon-feather-edit text-primary me-2 icon-sm"></i></a>
+                                    <a href="details.html"><i class="icon-feather-eye text-primary me-2 icon-sm"></i></a></td>
+                              </tr>
+                              <tr>
+                                <td>Executive Chairman at Business </td>
+                                <td>Energy</td>
+                                <td>08-25-2021</td>
+                                <td class="text-warning">In-progress</td>
+                                <td>2</td>
+                                <td>
+                                <div class="form-group">
+                                    <select class="form-select rounded-0">
+                                        <option selected>Inactivate</option>
+                                        <option>Activate</option>
+                                      </select>
+                                  </div>
+                                </td>
+                                <td class="text-end"><a href=""><i class="icon-feather-edit text-primary me-2 icon-sm"></i></a>
+                                    <a href="details.html"><i class="icon-feather-eye text-primary me-2 icon-sm"></i></a></td>
+                              </tr>
+                              <tr>
+                                <td>HR </td>
+                                <td>Entertainment</td>
+                                <td>08-25-2021</td>
+                                <td class="text-danger">Filled</td>
+                                <td>2</td>
+                                <td>
+                                <div class="form-group">
+                                    <select class="form-select rounded-0">
+                                        <option selected>Inactivate</option>
+                                        <option>Activate</option>
+                                      </select>
+                                  </div>
+                                </td>
+                                <td class="text-end"><a href=""><i class="icon-feather-edit text-primary me-2 icon-sm"></i></a>
+                                    <a href="details.html"><i class="icon-feather-eye text-primary me-2 icon-sm"></i></a></td>
+                              </tr>
+                              <tr>
+                                <td>Executive Chairman at Business </td>
+                                <td>Energy</td>
+                                <td>08-25-2021</td>
+                                <td class="text-success">Approval</td>
+                                <td>2</td>
+                                <td>
+                                <div class="form-group">
+                                    <select class="form-select rounded-0">
+                                        <option selected>Inactivate</option>
+                                        <option>Activate</option>
+                                      </select>
+                                  </div>
+                                </td>
+                                <td class="text-end"><a href=""><i class="icon-feather-edit text-primary me-2 icon-sm"></i></a>
+                                    <a href="details.html"><i class="icon-feather-eye text-primary me-2 icon-sm"></i></a></td>
+                              </tr>
+                              <tr>
+                                <td>Executive Chairman at Business </td>
+                                <td>Energy</td>
+                                <td>08-25-2021</td>
+                                <td class="text-success">Approval</td>
+                                <td>2</td>
+                                <td>
+                                <div class="form-group">
+                                    <select class="form-select rounded-0">
+                                        <option selected>Inactivate</option>
+                                        <option>Activate</option>
+                                      </select>
+                                  </div>
+                                </td>
+                                <td class="text-end"><a href=""><i class="icon-feather-edit text-primary me-2 icon-sm"></i></a>
+                                    <a href="details.html"><i class="icon-feather-eye text-primary me-2 icon-sm"></i></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <div class="paginations mb-2 pt-2 pull-right">
+                            <span class="paginations__number">1 - 20 of 10K</span>
+                            <a href="" class="paginations__arrow"><span class="icon-feather-chevron-left"></span></a>
+                            <a href=""class="paginations__arrow"><span class="icon-feather-chevron-right" aria-hidden="true"></span></a>
+                        </div>
+                    </div>
+                        <div class="clearfix">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+
+        <footer>
+            <div class="container-fluid">
+                <div class="row copyright">
+                    <div class="col-md-24"> © <span class="newYear">2022</span> ATS All rights reserved | <a href=""  target="_blank">Privacy Policy</a> | <a href="" target="_blank">Terms of Service</a>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <script>
+            $(".header__hamburger").on("click", function(){
+                $(".drawer").toggleClass("drawer_close")
+                $(this).toggleClass("header__hamburger_opened")
+            });
+
+            $(".nav__item_js").on("click", function(){
+                $(".nav__sub").removeClass("nav__sub_open");
+                $(this).children('.nav__sub').addClass("nav__sub_open");
+            });
+
+        </script>
+
+
+    </body>
+</html>
