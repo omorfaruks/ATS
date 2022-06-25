@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ATS</title>
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/icons/feather/feather.css">
+        <link rel="stylesheet" href="./assets/icons/FontAwesome/font-awesome.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header__logo-wrapper">
+                <a href="index.html">
+                    <img src="./assets/images/ATS.svg" class="header__logo">
+                </a>
+            </div>
+            <div class="header__hamburger">
+                <i class="icon-feather-menu"></i>
+                <i class="icon-feather-x"></i>
+            </div>
+            <div class="header__title">Settings</div>
+            <div class="account">
+                <div class="account__logo">
+                    <img src="./assets/images/user.png" alt="user" title="user">
+                </div>
+                <div class="account__name"> Omar Faruk <i class="icon-feather-chevron-down"></i>
+                    <ul class="nav nav_account">
+                        <li class="nav__item ">
+                            <a href="" class="nav__url">Settings</a>
+                        </li>
+                        <li class="nav__item ">
+                            <a href="" class="nav__url">Sign out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="drawer drawer_close">
+            <ul class="nav nav_m-t nav_max-height">
+                <li class="nav__item">
+                    <div class='nav__main-item'>
+                        <span class="nav__icon nav__icon_color_white">
+                            <i class="icon-feather-airplay"></i>
+                        </span>
+                        <div class="nav__url nav__url_color_white">Dashboard</div>
+                        <i class="icon-feather-chevron-right nav__stat nav__stat_color_white"></i>
+                    </div>
+                   
+                </li>
+                <li class="nav__item">
+                    <div class='nav__main-item'>
+                        <span class="nav__icon nav__icon_color_white">
+                            <i class="icon-feather-layers"></i>
+                        </span>
+                        <div class="nav__url nav__url_color_white">Jobs </div>
+                        <i class="icon-feather-chevron-right nav__stat nav__stat_color_white"></i>
+                    </div>
+                   
+                </li>
+                <li class="nav__item">
+                    <div class='nav__main-item'>
+                        <span class="nav__icon nav__icon_color_white">
+                            <i class="icon-feather-layout"></i>
+                        </span>
+                        <div class="nav__url nav__url_color_white">Candidates</div>
+                        <i class="icon-feather-chevron-right nav__stat nav__stat_color_white"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+<section class="section">
+    <div class="container">
+        <div class="row">
+                <div class="col-sm-9">
+                    <div class="tab-content cards" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-reset-password" role="tabpanel" aria-labelledby="v-pills-reset-password-tab">
+                            <h6 class="font-weight-normal h6 text-dark">Reset Password</h6>
+                            <hr/>
+                            <form>
+                                <div class="col-sm-4">
+                                    <div class="form-group mb-3">
+                                        <label for="email" class="fs-6 text">Old password</label>
+                                        <input type="email" name="email" id="email" class="form-control rounded-1">
+                                    </div>
+                                    <div class="form-group mb-5">
+                                        <label for="password" class="fs-6 text">New Password</label>
+                                        <input type="password" name="password" id="password" class="form-control rounded-1" aria-autocomplete="list">
+                                    </div>
+                                </div>
+                                
+                              <hr/>
+                                <div class="mb-4 d-flex justify-content-end">
+                                    <button class="btn btn-primary rounded-0 px-4 py-2 text-uppercase text">Save</button>
+                                </div>
+                                
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-users" role="tabpanel" aria-labelledby="v-pills-users-tab">
+                         <div class="table-responsive">
+                            <table class="table text-muted">
+                                <thead>
+                                  <tr>
+                                    <th class="text-uppercase text-dark">Employee photo</th>
+                                    <th class="text-uppercase text-dark">Employee</th>
+                                    <th class="text-uppercase text-dark">Name</th>
+                                    <th class="text-uppercase text-dark">Job title</th>
+                                    <th class="text-uppercase text-dark">Location</th>
+                                    <th class="text-uppercase text-dark">Employee status</th>
+                                    <th class="text-uppercase text-dark">Hire date</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td><img src="assets/images/user-01.png"></td>
+                                    <td>2</td>
+                                    <td>Sharon Doe</td>
+                                    <td>Engineering Design Specialist</td>
+                                    <td>109 Southfield park, <br/> Minden, LA 99501</td>
+                                    <td>Full-time</td>
+                                    <td>01-29-2022</td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="assets/images/user-02.png"></td>
+                                    <td>5</td>
+                                    <td>Haydee Doe</td>
+                                    <td>Executive Chairman at Business </td>
+                                    <td>3205 S Pulaski Rd, <br/>
+                                        Chicago, IL , 99501</td>
+                                    <td>Full-time</td>
+                                    <td>04-18-2017</td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="assets/images/user-01.png"></td>
+                                    <td>2</td>
+                                    <td>Sharon Doe</td>
+                                    <td>Engineering Design Specialist</td>
+                                    <td>109 Southfield park, <br/> Minden, LA 99501</td>
+                                    <td>Full-time</td>
+                                    <td>01-29-2022</td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="assets/images/user-03.png"></td>
+                                    <td>2</td>
+                                    <td>Deyanira Doe</td>
+                                    <td>HR </td>
+                                    <td>109 Southfield Park, <br/>
+                                        Minden, LA , 99501</td>
+                                    <td>Full-time</td>
+                                    <td>03-28-2017</td>
+                                  </tr>
+                                  <tr>
+                                    <td><img src="assets/images/user-04.png"></td>
+                                    <td>10</td>
+                                    <td>Maritza Doe</td>
+                                    <td>Chief In-charge</td>
+                                    <td>109 Southfield park, <br/> Minden, LA 99501</td>
+                                    <td>Full-time</td>
+                                    <td>01-29-2022</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <div class="paginations mb-2 pt-2 pull-right">
+                                <span class="paginations__number">1 - 20 of 10K</span>
+                                <a href="" class="paginations__arrow"><span class="icon-feather-chevron-left"></span></a>
+                                <a href=""class="paginations__arrow"><span class="icon-feather-chevron-right" aria-hidden="true"></span></a>
+                            </div>
+                        </div>
+                            <div class="clearfix">
+    
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="nav cards flex-column nav-pills setting_nav" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a href="" class="active border-bottom p-3 fw-bold" id="v-pills-reset-password-tab" data-bs-toggle="pill" data-bs-target="#v-pills-reset-password" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Reset password</a>
+                        <a href="" class="border-bottom p-3 fw-bold" id="v-pills-users-tab" data-bs-toggle="pill" data-bs-target="#v-pills-users" type="button" role="tab" aria-controls="v-pills-users" aria-selected="false">Users</a>
+                      </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <footer>
+            <div class="container-fluid">
+                <div class="row copyright">
+                    <div class="col-md-24"> © <span class="newYear">2022</span> ATS All rights reserved | <a href=""  target="_blank">Privacy Policy</a> | <a href="" target="_blank">Terms of Service</a>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <script>
+           
+            $(".header__hamburger").on("click", function(){
+                $(".drawer").toggleClass("drawer_close")
+                $(this).toggleClass("header__hamburger_opened")
+            });
+
+            $(".nav__item_js").on("click", function(){
+                $(".nav__sub").removeClass("nav__sub_open");
+                $(this).children('.nav__sub').addClass("nav__sub_open");
+            });
+
+        </script>
+
+
+    </body>
+</html>
